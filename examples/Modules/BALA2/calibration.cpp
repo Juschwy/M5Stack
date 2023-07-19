@@ -34,7 +34,7 @@ void calibrationGet(int16_t* gyro_x_offset, int16_t* gyro_y_offset,
     *angle_center = preferences.getFloat("angle", 0.0);
 }
 
-void calibrationGryo() {
+void calibrationGyro() {
     M5.Lcd.fillScreen(BLACK);
     M5.Lcd.setTextFont(2);
     M5.Lcd.setTextColor(GREEN);

@@ -1,6 +1,6 @@
 #pragma once
 
-void calibrationGryo();
+void calibrationGyro();
 void calibrationInit();
 void calibrationSaveCenterAngle(float angle);
 void calibrationGet(int16_t* gyro_x_offset, int16_t* gyro_y_offset,
